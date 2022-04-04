@@ -5,8 +5,14 @@
   padding: 0 15 0 15;
 }
 
+.begin {
+    color: white;
+    flex-wrap: wrap;
+    border: red;
+}
+
 #NavLinks {
-    margin-left: auto;
+    justify-content: flex-end;
     border: solid red;
 }
 
@@ -24,4 +30,26 @@ a {
     border: solid red;
     color: white;
     font-weight: bold;
-    display: inline-block}
+    display: inline-block;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: solid red;
+}
+
+#firsthead {
+    border: solid red;
+    color: white;
+}
+
+#ipsum {
+    color: white;
+    border: solid red;
+}
+
+#signupone {
+    color: white;
+    background-color: blue;
+}
