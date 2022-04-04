@@ -1,7 +1,6 @@
 .sectionOne {
   background-color: #1f2937;
   border: 1px solid;
-  display: flex;
   padding: 0 15 0 15;
 }
 
@@ -11,9 +10,8 @@
     border: red;
 }
 
-#NavLinks {
-    justify-content: flex-end;
-    border: solid red;
+#navlinks {
+    margin-left: 200px;
 }
 
 ul {
@@ -26,7 +24,7 @@ a {
     text-decoration: none;
 }
 
-#HeaderLogo {
+#HeaderlogoNav {
     border: solid red;
     color: white;
     font-weight: bold;
